@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Unwiind",
+    "slug": "unwiind",
+    "version": "1.1.4",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1c3554"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.happy.Unwiind",
+      "buildNumber": "1.1.4"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "sdkVersion": "41.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.happy.Unwiind",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json"
+    }
+  }
+}
